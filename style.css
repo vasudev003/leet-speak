@@ -1,0 +1,18 @@
+textarea {
+height: 20vh;
+width: 95%;
+}
+button {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: none;
+    font-size: large;
+}
+#output {
+    box-sizing: border-box;
+    border: 1px solid black;
+    min-height: 20vh;
+    max-height: 30vh;
+    width: 95%;
+    overflow: scroll;
+}
