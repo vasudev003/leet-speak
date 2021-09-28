@@ -1,6 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+color: #333333;
+}
+main {
+margin: auto;
+padding: 1rem;
+max-width: var(--width-break);
+}
+
+nav {
+    background-color: grey;
+    text-align: center;
+}
+
 textarea {
+box-sizing: border-box;
+display: block;    
 height: 20vh;
 width: 95%;
+font-size: large;
 }
 button {
     padding: 1rem;
@@ -16,3 +37,14 @@ button {
     width: 95%;
     overflow: scroll;
 }
+footer {
+    position: fixed;
+    bottom: 0%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    }
+    footer p {
+    max-width: var(--width-break);
+    padding: 1rem;
+    }
